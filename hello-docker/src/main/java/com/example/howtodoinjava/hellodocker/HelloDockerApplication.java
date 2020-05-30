@@ -22,7 +22,7 @@ class HelloDockerRestController {
 	public String helloDocker(@PathVariable(value = "name") String name) {
 		String response = "Hello " + name + " Response received on : " + new Date();
 		System.out.println(response);
-		System.out.println(response);
+		//System.out.println(response);
 		return response;
 
 	}
