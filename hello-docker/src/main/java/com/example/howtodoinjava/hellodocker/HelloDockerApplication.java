@@ -23,6 +23,7 @@ class HelloDockerRestController {
 		String response = "Hello " + name + " Response received on : " + new Date();
 		System.out.println(response);
 		//System.out.println(response);
+		//System.out.println(response);
 		return response;
 
 	}
